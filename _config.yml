@@ -1,0 +1,18 @@
+title: "James Burdick | Portfolio"
+description: "Software Development Student at BYU Idaho — Portfolio, Coursework, and Blog"
+baseurl: "/Portfolio"
+url: "https://burdiapps.github.io"
+author: "James Burdick"
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules

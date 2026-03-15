@@ -5,16 +5,22 @@ permalink: /blog
 ---
 
 <h2 class="section-title">Blog</h2>
+<p class="section-subtitle">Reflections on coursework, projects, and EdTech.</p>
 
 {% if site.posts.size > 0 %}
 <ul class="blog-list">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <div>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {% if post.excerpt %}
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+        {% endif %}
+      </div>
       <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
     </li>
   {% endfor %}
 </ul>
 {% else %}
-<p>No posts yet — check back soon!</p>
+<p>No posts yet &mdash; check back soon!</p>
 {% endif %}
