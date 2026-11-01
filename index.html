@@ -1,41 +1,61 @@
 ---
 layout: default
-title: Home
+title: About
+description: About James Burdick, a software developer building web, mobile, and full-stack applications.
 permalink: /
 ---
 
-<section class="hero">
-  <div class="profile-pic">👤</div>
-  <div class="hero-text">
-    <h1>James Burdick</h1>
-    <p class="hero-tagline">Software Developer &bull; EdTech Enthusiast &bull; Student</p>
-    <p class="hero-bio">
-      Hi! I'm a Software Development student at BYU Idaho with a passion for building
-      useful tools and exploring how technology can transform education. This portfolio
-      showcases my coursework, personal projects, and occasional thoughts on the blog.
-    </p>
+<section class="about-hero" aria-labelledby="about-title">
+  <div class="about-hero-content">
+    <p class="eyebrow">Software developer &amp; lifelong learner</p>
+    <h1 id="about-title">Hi, I’m James.</h1>
+    <p class="about-lead">I’m a software engineer experienced in iOS, web, and full-stack development using C#, Blazor, React, SwiftUI, and PostgreSQL. I’m passionate about solving problems, improving efficiency, and building intuitive software. I take pride in delivering high-quality solutions that make an impact.</p>
     <div class="hero-links">
-      <a href="{{ site.baseurl }}/coursework.html" class="btn btn-primary">Course Work</a>
-      <a href="{{ site.baseurl }}/projects.html" class="btn btn-outline">Projects</a>
-      <a href="{{ site.baseurl }}/blog.html" class="btn btn-outline">Blog</a>
+      <a class="btn btn-primary" href="{{ site.baseurl }}/projects/">Explore my projects</a>
+      <a class="btn btn-outline" href="{{ site.baseurl }}/blog/">Read the blog</a>
+    </div>
+  </div>
+  <img class="about-photo" src="{{ site.baseurl }}/assets/james-burdick.jpg" alt="James Burdick smiling in a suit" width="768" height="1024">
+</section>
+
+<section class="about-section" aria-labelledby="background-title">
+  <h2 class="section-title" id="background-title">About me</h2>
+  <p>I’m studying Software Development at Brigham Young University-Idaho, where I’m working toward a Bachelor of Science degree in 2027. I’ve also completed certificates in Software Development and Web Development. I like working across the stack, collaborating on team projects, and turning ideas into clear, reliable experiences.</p>
+  <p>Here I share what I’m building, what I’m learning, and the lessons I pick up along the way.</p>
+  <div class="about-social-links">
+    <a href="https://github.com/BurdiApps" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    <a href="https://www.youtube.com/@burdidev" target="_blank" rel="noopener noreferrer">Watch BurdiDev on YouTube <span aria-hidden="true">↗</span></a>
+    <a href="mailto:jamesburdick21@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
+
+<section class="about-section" aria-labelledby="skills-title">
+  <h2 class="section-title" id="skills-title">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-group">
+      <h3>Languages</h3>
+      <p>C#, JavaScript, Python, Swift, C++</p>
+    </div>
+    <div class="skill-group">
+      <h3>Frameworks &amp; platforms</h3>
+      <p>.NET, Blazor, ASP.NET Web Forms, React, SwiftUI, UIKit, Tailwind CSS</p>
+    </div>
+    <div class="skill-group">
+      <h3>Web &amp; data</h3>
+      <p>HTML, REST APIs, Express, Flask, OAuth, PostgreSQL, SQL Server, SQLite</p>
+    </div>
+    <div class="skill-group">
+      <h3>Tools &amp; practices</h3>
+      <p>Git, GitHub, Linux, PowerShell, Selenium, PyTest, Jest, Trello, Figma, Photoshop, Illustrator, UI/UX design, team collaboration</p>
     </div>
   </div>
 </section>
 
-<div class="quick-links">
-  <div class="quick-link-card">
-    <h3>📚 Course Work</h3>
-    <p>Weekly assignments and academic projects from my Software Development courses at BYU Idaho.</p>
-    <a href="{{ site.baseurl }}/coursework.html" class="btn btn-outline">View Coursework</a>
+<section class="youtube-callout" aria-labelledby="youtube-title">
+  <div>
+    <p class="eyebrow">On YouTube</p>
+    <h2 id="youtube-title">Follow along as I build and learn.</h2>
+    <p>Visit BurdiDev for more of my software development journey.</p>
   </div>
-  <div class="quick-link-card">
-    <h3>🛠 Projects</h3>
-    <p>Personal projects, passion projects, and freelance websites I have built outside of class.</p>
-    <a href="{{ site.baseurl }}/projects.html" class="btn btn-outline">View Projects</a>
-  </div>
-  <div class="quick-link-card">
-    <h3>✍️ Blog</h3>
-    <p>Reflections on what I'm learning, project updates, and thoughts on EdTech and development.</p>
-    <a href="{{ site.baseurl }}/blog.html" class="btn btn-outline">Read Blog</a>
-  </div>
-</div>
+  <a class="btn btn-primary" href="https://www.youtube.com/@burdidev" target="_blank" rel="noopener noreferrer">Visit my channel <span aria-hidden="true">↗</span></a>
+</section>

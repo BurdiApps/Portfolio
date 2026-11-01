@@ -1,5 +1,5 @@
 title: "James Burdick | Portfolio"
-description: "Software Development Student at BYU Idaho — Portfolio, Coursework, and Blog"
+description: "Software Development Student at BYU Idaho. Projects and blog."
 baseurl: "/Portfolio"
 url: "https://burdiapps.github.io"
 author: "James Burdick"
@@ -16,3 +16,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - node_modules
+  - coursework.html

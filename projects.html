@@ -1,69 +1,213 @@
 ---
 layout: default
 title: Projects
-permalink: /projects
+description: Selected .NET, iOS, and web projects by James Burdick.
+permalink: /projects/
 ---
 
-<h2 class="section-title">Experience &amp; Projects</h2>
-<p class="section-subtitle">Personal projects, passion projects, and freelance work.</p>
+<h1 class="section-title">Selected work</h1>
+<p class="section-subtitle">A quick look at the problems I’ve worked on and the tools I used. Open a category, then browse each project.</p>
 
-<div class="card-grid">
+<div class="project-category-grid">
+  <article class="project-category-card">
+    <div class="project-category-heading">
+      <p class="eyebrow">C# · ASP.NET · Blazor</p>
+      <h2>.NET Developer</h2>
+      <p>Full-stack apps and web development, from legacy systems to modern frameworks.</p>
+    </div>
+    <button class="project-expand" type="button" aria-expanded="false" aria-controls="dotnet-projects">
+      <span>Explore 3 projects</span><span class="expand-icon" aria-hidden="true">+</span>
+    </button>
+    <div class="project-category-content" id="dotnet-projects" hidden>
+      <div class="project-carousel" role="region" aria-label=".NET projects" aria-roledescription="carousel" data-carousel>
+        <div class="project-carousel-viewport">
+          <div class="project-carousel-track">
+            <article class="project-slide" role="group" aria-roledescription="slide" aria-label="1 of 3">
+              <div class="project-media project-media--flight">
+                <img class="project-preview-image" src="{{ site.baseurl }}/assets/projects/allflightgo-flight-details.png" alt="AllFlightGo flight details screen showing a CAI to DCA itinerary and transparency score" width="1149" height="669" loading="lazy">
+              </div>
+              <div class="project-slide-content">
+                <h3>AllFlightGo</h3>
+                <p>Built full-stack flight search features in C# and Blazor, including Google OAuth and Duffel API integration.</p>
+                <div class="project-tags"><span>C#</span><span>Blazor</span><span>OAuth</span><span>REST API</span></div>
+                <div class="project-links">
+                  <a href="https://github.com/BurdiApps/AllFlightGo" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span></a>
+                  <a href="https://youtu.be/Xhfnw86v16E" target="_blank" rel="noopener noreferrer">Watch demo <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+            <article class="project-slide" role="group" aria-roledescription="slide" aria-label="2 of 3" aria-hidden="true" inert>
+              <div class="project-media project-media--legacy">
+                <img class="project-preview-image" src="{{ site.baseurl }}/assets/projects/teachers-first-cu-legacy.png" alt="Teachers First Credit Union Legacy account summary showing account activity and a fictional balance" width="1559" height="768" loading="lazy">
+              </div>
+              <div class="project-slide-content">
+                <h3>Teachers First CU <span class="project-edition">Legacy</span></h3>
+                <p>Practiced maintaining a classic application with Web Forms, C# 7.3, and .NET Framework 4.8.</p>
+                <div class="project-tags"><span>C# 7.3</span><span>Web Forms</span><span>.NET 4.8</span></div>
+                <a href="https://github.com/BurdiApps/TeachersFirstCreditUnionLegacy" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="project-slide" role="group" aria-roledescription="slide" aria-label="3 of 3" aria-hidden="true" inert>
+              <div class="project-media project-media--modern">
+                <img class="project-preview-image" src="{{ site.baseurl }}/assets/projects/teachers-first-cu-modern-chat.png" alt="Teachers First Credit Union Modern website with an AI assistant chat helping a member explore savings and account options" width="796" height="678" loading="lazy">
+              </div>
+              <div class="project-slide-content">
+                <h3>Teachers First CU <span class="project-edition">Modern</span></h3>
+                <p>Reimagined the credit union project with a modern React frontend and ASP.NET backend.</p>
+                <div class="project-tags"><span>React</span><span>ASP.NET</span></div>
+                <a href="https://github.com/BurdiApps/TeachersFirstCreditUnionModern" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="project-carousel-controls">
+          <button class="carousel-arrow" type="button" data-carousel-prev aria-label="Previous .NET project" disabled>←</button>
+          <span class="carousel-count" aria-live="polite">1 / 3</span>
+          <button class="carousel-arrow" type="button" data-carousel-next aria-label="Next .NET project">→</button>
+        </div>
+      </div>
+    </div>
+  </article>
 
-  <div class="card">
-    <div class="card-img">🌐 Portfolio Screenshot</div>
-    <div class="card-body">
-      <h3>Portfolio Website</h3>
-      <p>This very site! A minimal personal portfolio built with HTML, CSS, JavaScript, and Jekyll. Deployed to GitHub Pages.</p>
+  <article class="project-category-card">
+    <div class="project-category-heading">
+      <p class="eyebrow">Swift · SwiftUI · UIKit</p>
+      <h2>iOS Developer</h2>
+      <p>iOS apps focused on accessibility, practical tools, and thoughtful experiences.</p>
     </div>
-    <div class="card-footer">
-      <a href="https://burdiapps.github.io/Portfolio/" class="btn btn-primary" target="_blank" rel="noopener">Live Demo</a>
-      <a href="https://github.com/BurdiApps/Portfolio" class="btn btn-outline" target="_blank" rel="noopener">Code</a>
+    <button class="project-expand" type="button" aria-expanded="false" aria-controls="ios-projects">
+      <span>Explore 2 projects</span><span class="expand-icon" aria-hidden="true">+</span>
+    </button>
+    <div class="project-category-content" id="ios-projects" hidden>
+      <div class="project-carousel" role="region" aria-label="iOS projects" aria-roledescription="carousel" data-carousel>
+        <div class="project-carousel-viewport">
+          <div class="project-carousel-track">
+            <article class="project-slide" role="group" aria-roledescription="slide" aria-label="1 of 2">
+              <div class="project-showcase" data-project-gallery>
+                <div class="project-media project-media--stutterer">
+                  <img class="project-preview-image project-preview-image--contain" src="{{ site.baseurl }}/assets/projects/stuttererapp-session.png" alt="StuttererApp running on an iPhone during a team review meeting" width="945" height="568" loading="lazy">
+                </div>
+                <div class="project-image-picker" role="group" aria-label="StuttererApp screenshots">
+                  <button class="project-image-choice project-image-choice--label is-selected" type="button" aria-label="Show StuttererApp session screenshot" aria-pressed="true" data-preview-src="{{ site.baseurl }}/assets/projects/stuttererapp-session.png" data-preview-alt="StuttererApp running on an iPhone during a team review meeting">
+                    Session
+                  </button>
+                  <button class="project-image-choice project-image-choice--label" type="button" aria-label="Show StuttererApp sound challenges screenshot" aria-pressed="false" data-preview-src="{{ site.baseurl }}/assets/projects/stuttererapp-challenges.png" data-preview-alt="StuttererApp sound challenges screen on an iPhone, with speaking exercises listed">
+                    Challenges
+                  </button>
+                </div>
+              </div>
+              <div class="project-slide-content">
+                <h3>StuttererApp</h3>
+                <p>Contributed SwiftUI screens, guided speaking exercises, and AVFoundation audio features for this stuttering support app.</p>
+                <div class="project-tags"><span>SwiftUI</span><span>AVFoundation</span><span>Accessibility</span></div>
+                <a href="https://github.com/jeremyaaronha/StuttererApp" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="project-slide" role="group" aria-roledescription="slide" aria-label="2 of 2" aria-hidden="true" inert>
+              <div class="project-media project-media--academy">
+                <img class="project-preview-image project-preview-image--contain" src="{{ site.baseurl }}/assets/projects/academy-prep-chp-tracker.png" alt="CHP Tracker iOS app shown in light and dark themes, with training calendar, program progress, and fitness log navigation" width="736" height="727" loading="lazy">
+              </div>
+              <div class="project-slide-content">
+                <h3>AcademyPrep</h3>
+                <p>An iOS police academy workout preparation app built with UIKit and Swift.</p>
+                <div class="project-tags"><span>Swift</span><span>UIKit</span><span>iOS</span></div>
+                <a href="https://github.com/BurdiApps/AcademyPrep" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="project-carousel-controls">
+          <button class="carousel-arrow" type="button" data-carousel-prev aria-label="Previous iOS project" disabled>←</button>
+          <span class="carousel-count" aria-live="polite">1 / 2</span>
+          <button class="carousel-arrow" type="button" data-carousel-next aria-label="Next iOS project">→</button>
+        </div>
+      </div>
     </div>
-  </div>
+  </article>
 
-  <div class="card">
-    <div class="card-img">🗣 Conjugator Screenshot</div>
-    <div class="card-body">
-      <h3>Passion Project: Conjugator</h3>
-      <p>An interactive Spanish verb conjugation tool designed to help language learners practice conjugations through drills and quizzes. A passion project at the intersection of software and EdTech.</p>
+  <article class="project-category-card">
+    <div class="project-category-heading">
+      <p class="eyebrow">C++ · Python · React</p>
+      <h2>Web &amp; Other Projects</h2>
+      <p>Team projects and experiments across web apps, APIs, and other technologies.</p>
     </div>
-    <div class="card-footer">
-      <a href="#" class="btn btn-primary">Demo</a>
-      <a href="https://github.com/BurdiApps" class="btn btn-outline" target="_blank" rel="noopener">Code</a>
+    <button class="project-expand" type="button" aria-expanded="false" aria-controls="other-projects">
+      <span>Explore 3 projects</span><span class="expand-icon" aria-hidden="true">+</span>
+    </button>
+    <div class="project-category-content" id="other-projects" hidden>
+      <div class="project-carousel" role="region" aria-label="Web and other projects" aria-roledescription="carousel" data-carousel>
+        <div class="project-carousel-viewport">
+          <div class="project-carousel-track">
+            <article class="project-slide" role="group" aria-roledescription="slide" aria-label="1 of 3">
+              <div class="project-showcase" data-project-gallery>
+                <div class="project-media project-media--destinator">
+                  <img class="project-preview-image" src="{{ site.baseurl }}/assets/projects/destinator-login.png" alt="Destinator admin panel login screen in dark mode" width="1668" height="768" loading="lazy">
+                </div>
+                <div class="project-image-picker" role="group" aria-label="Destinator screenshots">
+                  <button class="project-image-choice is-selected" type="button" aria-label="Show Destinator login screenshot" aria-pressed="true" data-preview-src="{{ site.baseurl }}/assets/projects/destinator-login.png" data-preview-alt="Destinator admin panel login screen in dark mode">
+                    <img src="{{ site.baseurl }}/assets/projects/destinator-login.png" alt="" width="1668" height="768" loading="lazy">
+                  </button>
+                  <button class="project-image-choice" type="button" aria-label="Show Destinator dashboard screenshot" aria-pressed="false" data-preview-src="{{ site.baseurl }}/assets/projects/destinator-dashboard.png" data-preview-alt="Destinator admin dashboard in dark mode showing trip, driver, GPS mileage, and recent trip data">
+                    <img src="{{ site.baseurl }}/assets/projects/destinator-dashboard.png" alt="" width="1659" height="768" loading="lazy">
+                  </button>
+                </div>
+              </div>
+              <div class="project-slide-content">
+                <h3>Destinator</h3>
+                <p>A project combining C++ with a Flask web application.</p>
+                <div class="project-tags"><span>C++</span><span>Python</span><span>Flask</span></div>
+                <div class="project-links">
+                  <a href="https://github.com/BurdiApps/Destinator" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span></a>
+                  <a href="https://youtu.be/kGcrsGr_Lv0" target="_blank" rel="noopener noreferrer">Watch demo <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+            <article class="project-slide" role="group" aria-roledescription="slide" aria-label="2 of 3" aria-hidden="true" inert>
+              <div class="project-showcase" data-project-gallery>
+                <div class="project-media project-media--haven">
+                  <img class="project-preview-image" src="{{ site.baseurl }}/assets/projects/handcrafted-haven-storefront.png" alt="Handcrafted Haven storefront with product search and handmade product cards" width="1617" height="694" loading="lazy">
+                </div>
+                <div class="project-image-picker" role="group" aria-label="Handcrafted Haven screenshots">
+                  <button class="project-image-choice is-selected" type="button" aria-label="Show Handcrafted Haven storefront screenshot" aria-pressed="true" data-preview-src="{{ site.baseurl }}/assets/projects/handcrafted-haven-storefront.png" data-preview-alt="Handcrafted Haven storefront with product search and handmade product cards">
+                    <img src="{{ site.baseurl }}/assets/projects/handcrafted-haven-storefront.png" alt="" width="1617" height="694" loading="lazy">
+                  </button>
+                  <button class="project-image-choice" type="button" aria-label="Show Handcrafted Haven product detail screenshot" aria-pressed="false" data-preview-src="{{ site.baseurl }}/assets/projects/handcrafted-haven-product.png" data-preview-alt="Handcrafted Haven product detail page with product information and add-to-cart button">
+                    <img src="{{ site.baseurl }}/assets/projects/handcrafted-haven-product.png" alt="" width="1612" height="654" loading="lazy">
+                  </button>
+                  <button class="project-image-choice" type="button" aria-label="Show Handcrafted Haven review feature screenshot" aria-pressed="false" data-preview-src="{{ site.baseurl }}/assets/projects/handcrafted-haven-review.png" data-preview-alt="Handcrafted Haven product review editor with star ratings and review summary">
+                    <img src="{{ site.baseurl }}/assets/projects/handcrafted-haven-review.png" alt="" width="1597" height="688" loading="lazy">
+                  </button>
+                </div>
+              </div>
+              <div class="project-slide-content">
+                <h3>Handcrafted Haven</h3>
+                <p>Team e-commerce project: designed wireframes and responsive UI, and built customer review features.</p>
+                <div class="project-tags"><span>React</span><span>Next.js</span><span>Team project</span></div>
+                <div class="project-links">
+                  <a href="https://github.com/dracoon6/WDD430Team08HandcraftedHaven" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span></a>
+                  <a href="https://youtu.be/LV0LObtsQiY" target="_blank" rel="noopener noreferrer">Watch demo <span aria-hidden="true">↗</span></a>
+                </div>
+              </div>
+            </article>
+            <article class="project-slide" role="group" aria-roledescription="slide" aria-label="3 of 3" aria-hidden="true" inert>
+              <div class="project-media project-media--blog">
+                <img class="project-preview-image project-preview-image--contain" src="{{ site.baseurl }}/assets/projects/blog10-sign-in.png" alt="Blog10 sign-in page with the tagline 10 blog ideas a day. Never run out. Sign in with Google." width="764" height="570" loading="lazy">
+              </div>
+              <div class="project-slide-content">
+                <h3>Blog10</h3>
+                <p>My blog idea organizer, built with a REST API and a React and Express application.</p>
+                <div class="project-tags"><span>REST API</span><span>React</span><span>Express</span></div>
+                <a href="https://github.com/BurdiApps/Blog10" target="_blank" rel="noopener noreferrer">View code <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="project-carousel-controls">
+          <button class="carousel-arrow" type="button" data-carousel-prev aria-label="Previous web and other project" disabled>←</button>
+          <span class="carousel-count" aria-live="polite">1 / 3</span>
+          <button class="carousel-arrow" type="button" data-carousel-next aria-label="Next web and other project">→</button>
+        </div>
+      </div>
     </div>
-  </div>
-
-  <div class="card">
-    <div class="card-img">🏪 Website Screenshot</div>
-    <div class="card-body">
-      <h3>Freelance Website #1</h3>
-      <p>A responsive business website built for a local small business. Includes contact form, services page, and mobile-friendly layout.</p>
-    </div>
-    <div class="card-footer">
-      <a href="#" class="btn btn-primary">Live Site</a>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-img">🏪 Website Screenshot</div>
-    <div class="card-body">
-      <h3>Freelance Website #2</h3>
-      <p>A landing page and booking system for a service-based business. Clean design focused on conversion and ease of use.</p>
-    </div>
-    <div class="card-footer">
-      <a href="#" class="btn btn-primary">Live Site</a>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-img">🏪 Website Screenshot</div>
-    <div class="card-body">
-      <h3>Freelance Website #3</h3>
-      <p>Portfolio and gallery site for a creative professional. Built with a focus on visual presentation and fast load times.</p>
-    </div>
-    <div class="card-footer">
-      <a href="#" class="btn btn-primary">Live Site</a>
-    </div>
-  </div>
-
+  </article>
 </div>
